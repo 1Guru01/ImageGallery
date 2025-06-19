@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guru Narayan Dash">
+    <title>Hover Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+            <ul class="menu">
+                <li><a href="index.html">Static Gallery</a></li>
+                <li><a href="LightBox.html">LightBox Gallery</a></li>
+                <li><a href="Filterable.html">Filterable Gallery</a></li>
+                <li><a href="carousel.html">carousel Gallery</a></li>
+                <li><a href="Thumbnail.html">Thumbnail Gallery</a></li>
+                <li><a href="hover.html">Hover Gallery</a></li>
+                <li><a href="Animated.html">Animated Masonry</a></li>
+                <li><a href="Infinite.html">Infinite Scroll Gallery</a></li>
+                <li><a href="DragDrop.html">Drag & Drop Gallery</a></li>
+                <li><a href="mixed.html">Mixed Gallery</a></li>
+            </ul>
+            </nav>
+    </header>
+    <main>
+        <h1>HOVER GALLERY</h1>
+        <div class="hover-gallery">
+            <div class="hover-item">
+                <img src="https://media.istockphoto.com/id/1341288649/photo/75mpix-panorama-of-beautiful-mount-ama-dablam-in-himalayas-nepal.webp?b=1&s=612x612&w=0&k=20&c=gidYdseCqKN9yZOGgdqTk2NWlVmN4tktQwikqL5TkT8="
+                    alt="Item 1">
+                <div class="overlay">
+                    <h3>Project One</h3>
+                    <p>Click to view details</p>
+                </div>
+            </div>
+            <div class="hover-item">
+                <img src="https://images.freeimages.com/images/large-previews/cc9/fiordland-mountains-1530256.jpg?fmt=webp&w=500"
+                    alt="Item 2">
+                <div class="overlay">
+                    <h3>Project Two</h3>
+                    <p>Click to view details</p>
+                </div>
+            </div>
+            <div class="hover-item">
+                <img src="https://media.istockphoto.com/id/487752036/photo/avalanche-thundering-down-mountain-peak-cloud-of-snow-annapurna-himalayas.webp?b=1&s=612x612&w=0&k=20&c=FkXOew9JKmKIxgwQt70-CapL1IeEAgVfHHyHhzqC2Jk="
+                    alt="Item 3">
+                <div class="overlay">
+                    <h3>Project Three</h3>
+                    <p>Click to view details</p>
+                </div>
+            </div>
+            <div class="hover-item">
+                <img src="https://cdn.pixabay.com/photo/2017/03/07/20/35/climb-2125148_1280.jpg"
+                    alt="Item 4">
+                <div class="overlay">
+                    <h3>Project Four</h3>
+                    <p>Click to view details</p>
+                </div>
+            </div>
+            <div class="hover-item">
+                <img src="https://cdn.pixabay.com/photo/2020/12/10/08/44/mountains-5819652_1280.jpg"
+                    alt="Item 5">
+                <div class="overlay">
+                    <h3>Project Five</h3>
+                    <p>Click to view details</p>
+                </div>
+            </div>
+            <div class="hover-item">
+                <img src="https://cdn.pixabay.com/photo/2017/11/03/12/10/dolomites-2914157_1280.jpg"
+                    alt="Item 6">
+                <div class="overlay">
+                    <h3>Project Six</h3>
+                    <p>Click to view details</p>
+                </div>
+            </div>
+            </div>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+                const toggle = document.querySelector(".menu-toggle");
+                const menu = document.querySelector(".menu");
+
+                toggle.addEventListener("click", () => {
+                    menu.classList.toggle("active");
+                });
+            });
+    </script>
+</body>
+
+</html>

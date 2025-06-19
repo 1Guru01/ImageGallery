@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guru Narayan Dash">
+    <title>LightBox Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-container">
+        <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <ul class="menu">
+            <li><a href="index.html">Static Gallery</a></li>
+            <li><a href="LightBox.html">LightBox Gallery</a></li>
+            <li><a href="Filterable.html">Filterable Gallery</a></li>
+            <li><a href="carousel.html">carousel Gallery</a></li>
+            <li><a href="Thumbnail.html">Thumbnail Gallery</a></li>
+            <li><a href="hover.html">Hover Gallery</a></li>
+            <li><a href="Animated.html">Animated Masonry</a></li>
+            <li><a href="Infinite.html">Infinite Scroll Gallery</a></li>
+            <li><a href="DragDrop.html">Drag & Drop Gallery</a></li>
+            <li><a href="mixed.html">Mixed Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 id="lightbox-heading">LIGHTBOX GALLERY</h1>
+        <div class="lightbox-gallery">
+            <img src="https://cdn.pixabay.com/photo/2017/06/01/10/03/koala-2363007_1280.jpg" alt="koala" />
+
+            <img src="https://cdn.pixabay.com/photo/2022/08/18/06/57/monkey-7394077_1280.jpg"
+                alt="monkey" />
+
+            <img src="https://cdn.pixabay.com/photo/2022/07/28/02/39/orangutan-7349031_1280.jpg"
+                alt="orangutan" />
+
+            <img src="https://cdn.pixabay.com/photo/2014/07/31/22/57/sloth-407088_1280.jpg"
+              style="height: 16.4rem;"  alt="sloth" />
+
+            <img src="https://cdn.pixabay.com/photo/2019/10/15/13/36/mist-4551691_1280.jpg"
+              style="height: 16.25rem;"  alt="stag" />
+
+            <img src="https://cdn.pixabay.com/photo/2016/11/18/18/55/fish-1836399_1280.jpg" alt="whale" style="height: 260px;">
+
+            <img src="https://cdn.pixabay.com/photo/2014/12/10/05/50/english-bulldog-562723_1280.jpg" alt="dog">
+
+            <img src="https://cdn.pixabay.com/photo/2020/03/19/18/29/camel-4948299_1280.jpg" alt="camel">
+
+            <img src="https://cdn.pixabay.com/photo/2021/11/11/13/08/leopard-6786267_1280.jpg" alt="panther">
+
+            <img src="https://cdn.pixabay.com/photo/2015/10/21/19/07/ape-1000270_1280.jpg" alt="monkey cubs" style="height: 16.2rem;" >
+
+            <img src="https://cdn.pixabay.com/photo/2025/05/04/18/04/robin-9578746_1280.jpg" style="height: 16.2rem;" alt="robin bird">
+
+            <img src="https://cdn.pixabay.com/photo/2018/09/25/21/32/monkey-3703230_1280.jpg" alt="chimpangee" style="height: 16.2rem;"  >
+        </div>
+
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <span class="nav pre">&#10094;</span>
+            <span class="nav nex">&#10095;</span>
+        </div>
+    </main>
+
+    <script src="lightbox.js"></script>
+</body>
+
+</html>

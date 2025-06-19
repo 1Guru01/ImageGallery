@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guru Narayan Dash">
+    <title>Thumbnail Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+            <ul class="menu">
+                <li><a href="index.html">Static Gallery</a></li>
+                <li><a href="LightBox.html">LightBox Gallery</a></li>
+                <li><a href="Filterable.html">Filterable Gallery</a></li>
+                <li><a href="carousel.html">carousel Gallery</a></li>
+                <li><a href="Thumbnail.html">Thumbnail Gallery</a></li>
+                <li><a href="hover.html">Hover Gallery</a></li>
+                <li><a href="Animated.html">Animated Masonry</a></li>
+                <li><a href="Infinite.html">Infinite Scroll Gallery</a></li>
+                <li><a href="DragDrop.html">Drag & Drop Gallery</a></li>
+                <li><a href="mixed.html">Mixed Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>THUMBNAIL GALLERY</h1>
+        <div class="gallery-container">
+            <div class="main-image">
+                <img id="current" src="https://cdn.pixabay.com/photo/2016/08/17/09/57/fruit-bowl-1600003_1280.jpg"
+                    alt="Main Image" title="Full sized Image">
+            </div>
+            <div class="thumbnails">
+
+                <img class="thumb" src="https://cdn.pixabay.com/photo/2016/09/06/14/59/plums-1649316_1280.jpg"
+                    data-full="https://cdn.pixabay.com/photo/2016/09/06/14/59/plums-1649316_1280.jpg" alt="Thumb 1">
+
+                <img class="thumb" src="https://cdn.pixabay.com/photo/2017/09/26/13/42/apple-2788662_1280.jpg"
+                    data-full="https://cdn.pixabay.com/photo/2017/09/26/13/42/apple-2788662_1280.jpg" alt="Thumb 2">
+
+                <img class="thumb" src="https://cdn.pixabay.com/photo/2022/05/27/10/35/strawberry-7224875_1280.jpg"
+                    data-full="https://cdn.pixabay.com/photo/2022/05/27/10/35/strawberry-7224875_1280.jpg"
+                    alt="Thumb 3">
+
+                <img class="thumb" src="https://cdn.pixabay.com/photo/2015/01/13/13/18/cherries-598170_1280.jpg"
+                    data-full="https://cdn.pixabay.com/photo/2015/01/13/13/18/cherries-598170_1280.jpg" alt="Thumb 4">
+
+                <img class="thumb" src="https://cdn.pixabay.com/photo/2016/11/21/14/24/berries-1845683_1280.jpg"
+                    data-full="https://cdn.pixabay.com/photo/2016/11/21/14/24/berries-1845683_1280.jpg" alt="Thumb 4">
+
+
+            </div>
+        </div>
+    </main>
+
+    <script src="thumbnail.js"></script>
+</body>
+
+</html>

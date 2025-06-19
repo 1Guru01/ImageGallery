@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Guru Narayan Dash" />
+    <title>Filterable Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-container">
+        <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <ul class="menu">
+          <li><a href="index.html">Static Gallery</a></li>
+          <li><a href="LightBox.html">LightBox Gallery</a></li>
+          <li><a href="Filterable.html">Filterable Gallery</a></li>
+          <li><a href="carousel.html">carousel Gallery</a></li>
+          <li><a href="Thumbnail.html">Thumbnail Gallery</a></li>
+          <li><a href="hover.html">Hover Gallery</a></li>
+          <li><a href="Animated.html">Animated Masonry</a></li>
+          <li><a href="Infinite.html">Infinite Scroll Gallery</a></li>
+          <li><a href="DragDrop.html">Drag & Drop Gallery</a></li>
+          <li><a href="mixed.html">Mixed Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Filterable Gallery</h1>
+
+      <div class="filter-buttons">
+        <button data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="city">City</button>
+        <button data-filter="people">People</button>
+      </div>
+
+      <div class="filter-gallery">
+        <div class="itemms" data-category="nature">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/08/19/10/16/nature-3616194_1280.jpg"
+            alt="Nature 1"
+          />
+        </div>
+
+        <div class="itemms" data-category="city">
+          <img
+            src="https://cdn.pixabay.com/photo/2023/08/04/22/59/sunset-8170058_1280.jpg"
+            alt="City 1"
+          />
+        </div>
+
+        <div class="itemms" data-category="people">
+          <img
+            src="https://cdn.pixabay.com/photo/2019/12/15/13/01/merry-christmas-4697055_1280.jpg"
+            alt="People 1"
+            style="height: 265px"
+          />
+        </div>
+
+        <div class="itemms" data-category="nature">
+          <img
+            src="https://cdn.pixabay.com/photo/2021/08/27/18/50/water-6579313_1280.jpg"
+            alt="Nature 2"
+          />
+        </div>
+
+        <div class="itemms" data-category="city">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/11/19/15/03/buildings-1839726_1280.jpg"
+            alt="City 2"
+          />
+        </div>
+
+        <div class="itemms" data-category="people">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/03/14/13/06/friends-1255442_1280.jpg"
+            alt="People 2"
+          />
+        </div>
+
+        <div class="itemms" data-category="nature">
+          <img
+            src="https://cdn.pixabay.com/photo/2022/04/15/07/58/sunset-7133867_1280.jpg"
+            alt="Nature 3"
+          />
+        </div>
+
+        <div class="itemms" data-category="city">
+          <img
+            src="https://cdn.pixabay.com/photo/2022/05/03/10/29/prague-7171444_1280.jpg"
+            alt="City 3"
+          />
+        </div>
+
+        <div class="itemms" data-category="people">
+          <img
+            src="https://cdn.pixabay.com/photo/2022/09/21/04/10/people-7469420_1280.jpg"
+            alt="People 3"
+          />
+        </div>
+
+        <div class="itemms" data-category="nature">
+          <img
+            id="expandable"
+            src="https://cdn.pixabay.com/photo/2024/12/28/03/39/field-9295186_1280.jpg"
+            alt="Nature 4"
+          />
+        </div>
+
+        <div class="itemms" data-category="city">
+          <img
+            id="expandable"
+            src="https://cdn.pixabay.com/photo/2014/01/30/18/26/skyline-255116_1280.jpg"
+            alt="City 4"
+          />
+        </div>
+
+        <div class="itemms" data-category="people">
+          <img
+            id="expandable"
+            src="https://cdn.pixabay.com/photo/2024/05/22/00/01/business-8779378_1280.jpg"
+            alt="People 4"
+          />
+        </div>
+      </div>
+    </main>
+    <script src="filterable.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guru Narayan Dash">
+    <title>Static Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+            <ul class="menu">
+                <li><a href="index.html">Static Gallery</a></li>
+                <li><a href="LightBox.html">LightBox Gallery</a></li>
+                <li><a href="Filterable.html">Filterable Gallery</a></li>
+                <li><a href="carousel.html">carousel Gallery</a></li>
+                <li><a href="Thumbnail.html">Thumbnail Gallery</a></li>
+                <li><a href="hover.html">Hover Gallery</a></li>
+                <li><a href="Animated.html">Animated Masonry</a></li>
+                <li><a href="Infinite.html">Infinite Scroll Gallery</a></li>
+                <li><a href="DragDrop.html">Drag & Drop Gallery</a></li>
+                <li><a href="mixed.html">Mixed Gallery</a></li>
+            </ul>
+            </nav>
+    </header>
+
+    <main>
+        <h1 id="static-head">STATIC IMAGE GALLERY</h1>
+        <div id="static-gallery">
+            <a href="https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_1280.jpg" target="_self">
+                <img src="https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_1280.jpg" alt="Eagle" title="Eagle" >
+            </a>
+        
+            <a href="https://cdn.pixabay.com/photo/2016/11/29/02/19/animal-1866808_1280.jpg" target="_self">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/02/19/animal-1866808_1280.jpg" alt="Sea-Turtle" title="Sea-Turtle">
+            </a>
+        
+            <a href="https://cdn.pixabay.com/photo/2018/07/07/14/45/adler-3522239_1280.jpg" target="_self">
+                <img src="https://cdn.pixabay.com/photo/2018/07/07/14/45/adler-3522239_1280.jpg" alt="Eagle" title="Flying Eagle">
+            </a>
+        
+            <a href="https://cdn.pixabay.com/photo/2014/11/03/11/07/lion-515028_1280.jpg" target="_self" title="Lion close-up">
+                <img src="https://cdn.pixabay.com/photo/2014/11/03/11/07/lion-515028_1280.jpg" alt="Lion">
+            </a>
+        
+            <a href="https://cdn.pixabay.com/photo/2016/11/29/11/13/animal-1869120_1280.jpg" target="_self">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/11/13/animal-1869120_1280.jpg" alt="Tiger-close" title="Tiger close-up">
+            </a>
+        
+            <a href="https://cdn.pixabay.com/photo/2023/03/05/17/58/lion-7831966_1280.jpg" target="_self">
+                <img src="https://cdn.pixabay.com/photo/2023/03/05/17/58/lion-7831966_1280.jpg" alt="Lion" title="Lion">
+            </a>
+        
+            <a href="https://cdn.pixabay.com/photo/2023/11/03/19/59/malaysian-tiger-8363779_1280.jpg" target="_self">
+                <img src="https://cdn.pixabay.com/photo/2023/11/03/19/59/malaysian-tiger-8363779_1280.jpg" alt="Tiger" title="Climbing Tiger">
+            </a>
+        
+            <a href="https://cdn.pixabay.com/photo/2017/06/01/15/23/peafowl-2363750_1280.jpg" target="_self">
+                <img src="https://cdn.pixabay.com/photo/2017/06/01/15/23/peafowl-2363750_1280.jpg" alt="Peacock" title="Male Peacock">
+            </a>
+        
+            <a href="https://cdn.pixabay.com/photo/2020/11/03/07/25/tiger-5708918_1280.jpg" target="_self">
+                <img src="https://cdn.pixabay.com/photo/2020/11/03/07/25/tiger-5708918_1280.jpg" alt="Tiger" title="Tiger">
+            </a>
+    </main>
+
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+                const toggle = document.querySelector(".menu-toggle");
+                const menu = document.querySelector(".menu");
+
+                toggle.addEventListener("click", () => {
+                    menu.classList.toggle("active");
+                });
+            });
+    </script>
+</body>
+
+</html>
